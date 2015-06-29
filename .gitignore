@@ -38,3 +38,6 @@ proguard/
 *.log
 
 
+
+gradlew.bat
+gradlew
