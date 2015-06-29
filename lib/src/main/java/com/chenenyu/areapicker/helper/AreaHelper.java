@@ -43,18 +43,6 @@ public class AreaHelper {
         SPUtil.put(context, AREA, CURRENT_COUNTY, county);
     }
 
-    public void clearCurrentCity() {
-        SPUtil.remove(context, AREA, CURRENT_CITY);
-    }
-
-    public void clearCurrentCounty() {
-        SPUtil.remove(context, AREA, CURRENT_COUNTY);
-    }
-
-    public void clearCurrentCountyID() {
-
-    }
-
     public String getProvince() {
         return (String)SPUtil.get(context, AREA, CURRENT_PROVINCE, "");
     }
