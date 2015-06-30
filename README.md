@@ -1,7 +1,7 @@
 ## AreaPicker
 [ ![Download](https://api.bintray.com/packages/chenenyu/maven/area-picker/images/download.svg) ](https://bintray.com/chenenyu/maven/area-picker/_latestVersion)
 
-可定制的省市区选择器!
+可定制的省市县选择器!
 
 ## Features
 
@@ -23,7 +23,7 @@
 	}
 	ft.addToBackStack(null);
 	picker = new AreaPicker();
-	// 支持单级/省市/省市县联动
+	// 支持省份/省市/省市县联动
 	//picker.setLevel(PickLevel.PROVINCE_CITY);
 	picker.show(ft, "dialog");
 	
