@@ -6,7 +6,7 @@
 
 * 采用[DialogFragment](http://developer.android.com/intl/zh-cn/reference/android/app/DialogFragment.html)实现,生命周期跟随Activity,不会因为屏幕旋转等因素而自动消失.
 * 历史记录存储,上次完成的操作会在本次操作中标记出来.
-* 支持省份选择(PickLevel.PROVINCE_ONLY)、省市联动(PickLevel.PROVINCE_CITY)、省市区联动(PickLevel.ALL  默认)  
+* 支持省份选择(PickLevel.PROVINCE_ONLY)、省市联动(PickLevel.PROVINCE_CITY)、省市县联动(PickLevel.ALL  默认)
 
 ## How to use
 
