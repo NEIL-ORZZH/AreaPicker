@@ -1,39 +1,10 @@
-.gradle
-/local.properties
-/.idea/workspace.xml
-/.idea/libraries
 .DS_Store
-/build
-/captures
-*.iml
-.idea
-
-### Android template
-# Built application files
-*.apk
-*.ap_
-
-# Files for the Dalvik VM
-*.dex
-
-# Java class files
-*.class
-
-# Generated files
-bin/
-gen/
-
-# Gradle files
-.gradle/
-build/
-/*/build/
-
-# Local configuration file (sdk path, etc)
+.gradle
+/gradle.properties
 local.properties
-
-
-# Log Files
-*.log
-
-gradlew.bat
-gradlew
+/.idea
+build
+*.iml
+/gradle
+project.properties
+androidTest

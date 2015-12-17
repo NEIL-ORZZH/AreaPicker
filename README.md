@@ -28,12 +28,6 @@
 	picker.show(ft, "dialog");
 	
 
-见demo. 如有疑问,可联系作者
-
-## About me
-
-新人一枚, 热忱并致力于开源  
-Email: fullstackdeveloper@163.com  
-Weibo: [FullStack](http://weibo.com/5460990917/profile?topnav=1&wvr=6)  
+见demo.
 
 

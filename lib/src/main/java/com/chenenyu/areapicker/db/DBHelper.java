@@ -116,7 +116,7 @@ public class DBHelper extends SQLiteOpenHelper {
     /**
      * Query all the provinces.
      *
-     * @return List<Province>
+     * @return List
      */
     public List<Area> getProvinceList() {
         List list = new ArrayList();
@@ -149,7 +149,7 @@ public class DBHelper extends SQLiteOpenHelper {
      * Query all the cities according to the province_code.
      *
      * @param province_code province_code
-     * @return List<City>
+     * @return List
      */
     public List<Area> getCityList(String province_code) {
         List list = new ArrayList();
@@ -183,7 +183,7 @@ public class DBHelper extends SQLiteOpenHelper {
      * Query all the cities according to the city_code.
      *
      * @param city_code city_code
-     * @return List<County>
+     * @return List
      */
     public List<Area> getCountyList(String city_code) {
         List<Area> list = new ArrayList();
