@@ -12,7 +12,7 @@
 ## How to use
 	In your build.gradle:
 	dependencies {
-    	compile 'com.chenenyu.areapicker:lib:1.0.0'
+    	compile 'com.chenenyu.areapicker:lib:1.0.1'
 	}
 	
 	Then:
