@@ -2,6 +2,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
 
+group = "com.chenenyu.areapicker"
 version = "1.0.1"
 
 android {
@@ -31,8 +32,6 @@ dependencies {
 
 def siteUrl = 'https://github.com/chenenyu/AreaPicker'
 def gitUrl = 'https://github.com/chenenyu/AreaPicker.git'
-
-group = "com.chenenyu.areapicker"
 
 // 定义pom并打包aar
 install {
